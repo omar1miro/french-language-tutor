@@ -1,0 +1,62 @@
+export const ALPHABET_DATA = [
+  { char: 'A', name: 'a', ipa: '[a]', sound: 'ah', example: 'Avion', meaning: 'Airplane', tip: 'Like "a" in "father"' },
+  { char: 'B', name: 'bé', ipa: '[be]', sound: 'bay', example: 'Banane', meaning: 'Banana', tip: 'Like "bay" without the diphthong' },
+  { char: 'C', name: 'cé', ipa: '[se]', sound: 'say', example: 'Citron', meaning: 'Lemon', tip: 'Like "say" — soft C before e/i' },
+  { char: 'D', name: 'dé', ipa: '[de]', sound: 'day', example: 'Dauphin', meaning: 'Dolphin', tip: 'Like "day" — softer than English D' },
+  { char: 'E', name: 'e', ipa: '[ə]', sound: 'uh', example: 'École', meaning: 'School', tip: 'Like "a" in "about" — the schwa sound' },
+  { char: 'F', name: 'effe', ipa: '[ɛf]', sound: 'ehf', example: 'Fleur', meaning: 'Flower', tip: 'Same as English F' },
+  { char: 'G', name: 'gé', ipa: '[ʒe]', sound: 'zhay', example: 'Girafe', meaning: 'Giraffe', tip: 'Like "s" in "measure" — voiced' },
+  { char: 'H', name: 'ache', ipa: '[aʃ]', sound: 'ahsh', example: 'Hôtel', meaning: 'Hotel', tip: 'Silent in French — never pronounced' },
+  { char: 'I', name: 'i', ipa: '[i]', sound: 'ee', example: 'Île', meaning: 'Island', tip: 'Like "ee" in "see"' },
+  { char: 'J', name: 'ji', ipa: '[ʒi]', sound: 'zhee', example: 'Jardin', meaning: 'Garden', tip: 'Like "s" in "measure" — always voiced' },
+  { char: 'K', name: 'ka', ipa: '[ka]', sound: 'kah', example: 'Kangourou', meaning: 'Kangaroo', tip: 'Same as English K' },
+  { char: 'L', name: 'elle', ipa: '[ɛl]', sound: 'ehl', example: 'Livre', meaning: 'Book', tip: 'Same as English L' },
+  { char: 'M', name: 'emme', ipa: '[ɛm]', sound: 'ehm', example: 'Maison', meaning: 'House', tip: 'Same as English M' },
+  { char: 'N', name: 'enne', ipa: '[ɛn]', sound: 'ehn', example: 'Nuage', meaning: 'Cloud', tip: 'Same as English N' },
+  { char: 'O', name: 'o', ipa: '[o]', sound: 'oh', example: 'Oiseau', meaning: 'Bird', tip: 'Pure "oh" — no diphthong like English' },
+  { char: 'P', name: 'pé', ipa: '[pe]', sound: 'pay', example: 'Pomme', meaning: 'Apple', tip: 'Like "pay" — softer aspiration' },
+  { char: 'Q', name: 'ku', ipa: '[ky]', sound: 'kew', example: 'Quatre', meaning: 'Four', tip: 'Like "queue" but with rounded lips' },
+  { char: 'R', name: 'erre', ipa: '[ɛʁ]', sound: 'ehr', example: 'Rouge', meaning: 'Red', tip: 'Guttural R — back of throat, like Scottish' },
+  { char: 'S', name: 'esse', ipa: '[ɛs]', sound: 'ehs', example: 'Soleil', meaning: 'Sun', tip: 'Like "s" in "sun" — never "z"' },
+  { char: 'T', name: 'té', ipa: '[te]', sound: 'tay', example: 'Train', meaning: 'Train', tip: 'Like "tay" — dental, tongue touches teeth' },
+  { char: 'U', name: 'u', ipa: '[y]', sound: 'ew', example: 'Univers', meaning: 'University', tip: 'Round lips like "oo", tongue like "ee"' },
+  { char: 'V', name: 'vé', ipa: '[ve]', sound: 'vay', example: 'Voiture', meaning: 'Car', tip: 'Like "vay" — same as English V' },
+  { char: 'W', name: 'double vé', ipa: '[dubləve]', sound: 'doo-bleh-vay', example: 'Wagon', meaning: 'Wagon', tip: 'Pronounced as two words: "double vé"' },
+  { char: 'X', name: 'iks', ipa: '[iks]', sound: 'iks', example: 'Xylophone', meaning: 'Xylophone', tip: 'Like "iks" — same as English X' },
+  { char: 'Y', name: 'i grec', ipa: '[iɡʁɛk]', sound: 'ee-grek', example: 'Yacht', meaning: 'Yacht', tip: 'Pronounced "i grec" — literally "Greek i"' },
+  { char: 'Z', name: 'zède', ipa: '[zɛd]', sound: 'zed', example: 'Zèbre', meaning: 'Zebra', tip: 'Like "zed" — same as English Z' },
+];
+
+export const FRENCH_VOWELS = [
+  { symbol: 'a', ipa: '[a]', example: 'patte', meaning: 'paw', english: 'Like "a" in "father"' },
+  { symbol: 'e', ipa: '[e]', example: 'été', meaning: 'summer', english: 'Like "ay" in "say"' },
+  { symbol: 'è', ipa: '[ɛ]', example: 'mère', meaning: 'mother', english: 'Like "e" in "best"' },
+  { symbol: 'ê', ipa: '[ɛː]', example: 'fête', meaning: 'party', english: 'Longer version of è' },
+  { symbol: 'i', ipa: '[i]', example: 'si', meaning: 'yes', english: 'Like "ee" in "see"' },
+  { symbol: 'o', ipa: '[o]', example: 'mot', meaning: 'word', english: 'Pure "oh" — no diphthong' },
+  { symbol: 'ô', ipa: '[o]', example: 'côte', meaning: 'coast', english: 'Same as o — lengthened' },
+  { symbol: 'u', ipa: '[y]', example: 'tu', meaning: 'you', english: 'Round lips like "oo", tongue like "ee"' },
+  { symbol: 'ou', ipa: '[u]', example: 'tout', meaning: 'all', english: 'Like "oo" in "too"' },
+];
+
+export const FRENCH_NASAL_VOWELS = [
+  { symbol: 'an', ipa: '[ɑ̃]', example: 'vent', meaning: 'wind', english: 'Nasal "ah" — mouth open' },
+  { symbol: 'en', ipa: '[ɑ̃]', example: 'temps', meaning: 'time', english: 'Same as an' },
+  { symbol: 'on', ipa: '[ɔ̃]', example: 'nom', meaning: 'name', english: 'Nasal "oh" — round lips' },
+  { symbol: 'in', ipa: '[ɛ̃]', example: 'vin', meaning: 'wine', english: 'Nasal "eh" — like "an" in "ant"' },
+  { symbol: 'un', ipa: '[œ̃]', example: 'un', meaning: 'one', english: 'Nasal "uh" — often merged with in' },
+];
+
+export const FRENCH_CONSONANT_COMBOS = [
+  { combo: 'ch', ipa: '[ʃ]', example: 'chat', meaning: 'cat', english: 'Like "sh" in "shoe"' },
+  { combo: 'gn', ipa: '[ɲ]', example: 'montagne', meaning: 'mountain', english: 'Like "ny" in "canyon"' },
+  { combo: 'ou', ipa: '[w]', example: 'oui', meaning: 'yes', english: 'Like "w" in "we"' },
+  { combo: 'oi', ipa: '[wa]', example: 'voix', meaning: 'voice', english: "Like \"wa\" in \"water\"" },
+  { combo: 'ai', ipa: '[ɛ]', example: 'lait', meaning: 'milk', english: 'Like "e" in "best"' },
+  { combo: 'au', ipa: '[o]', example: 'eau', meaning: 'water', english: 'Pure "oh" sound' },
+  { combo: 'eau', ipa: '[o]', example: 'beau', meaning: 'beautiful', english: 'Same as au' },
+  { combo: 'eu', ipa: '[ø]', example: 'peu', meaning: 'a little', english: 'Like French "eu" — rounded front vowel' },
+  { combo: 'eux', ipa: '[ø]', example: 'deux', meaning: 'two', english: 'Same as eu' },
+  { combo: 'ien', ipa: '[jɛ̃]', example: 'bien', meaning: 'well', english: 'Nasal "yen"' },
+  { combo: 'oin', ipa: '[wɛ̃]', example: 'loin', meaning: 'far', english: 'Nasal "wan"' },
+];
